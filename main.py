@@ -20,7 +20,9 @@ dots = [[1],[1]]
 x0 = dots[0][0]
 y0 = dots[1][0]
 
-for dot in float_range(1,4,0.5):
+STEP = 0.1
+
+for dot in float_range(1,4,STEP):
     y = euler(dot,dots[0][-1],dots[1][-1])
     dots[0].append(dot)
     dots[1].append(y)
