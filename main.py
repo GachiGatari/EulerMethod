@@ -29,4 +29,4 @@ for dot in float_range(1,4,STEP):
 
 dots[0].remove(1)
 dots[1].remove(1)
-print(dots[])
+print(dots[1][dots[0].index(3.0)])
